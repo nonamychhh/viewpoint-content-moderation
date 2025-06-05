@@ -1,0 +1,103 @@
+{
+    "api_token": "YOUR_BOT_TOKEN",
+    "group_settings": {
+        "-1000000000001": {
+            "name": "Group_1",
+            "topics": {
+                "1001": {
+                    "name": "Topic_A",
+                    "photo": false,
+                    "video": false,
+                    "text": false,
+                    "audio": false,
+                    "voice": false,
+                    "video_voice": false,
+                    "polls": false,
+                    "files": false,
+                    "sticker": false,
+                    "gif": false,
+                    "allowed_hashtags": [
+                        "#test"
+                    ],
+                    "forward_to_topics": [],
+                    "content_tracking": false,
+                    "is_general": false,
+                    "forward_mentions": false,
+                    "message_count": 72,
+                    "allowed_links": [
+                        "example-domain.com",
+                        "test-site.ru"
+                    ]
+                },
+                "default": {
+                    "name": "General",
+                    "photo": false,
+                    "video": false,
+                    "text": false,
+                    "audio": false,
+                    "voice": false,
+                    "video_voice": false,
+                    "polls": false,
+                    "files": false,
+                    "sticker": false,
+                    "gif": false,
+                    "allowed_hashtags": [
+                        "#main",
+                        "#random"
+                    ],
+                    "forward_to_topics": [
+                        "1001"
+                    ],
+                    "content_tracking": true,
+                    "is_general": true,
+                    "forward_mentions": true,
+                    "message_count": 100,
+                    "allowed_links": [
+                        "example.com",
+                        "example-domain.com"
+                    ]
+                },
+                "1002": {
+                    "name": "Support_Ticket",
+                    "photo": false,
+                    "video": false,
+                    "text": false,
+                    "audio": false,
+                    "voice": false,
+                    "video_voice": false,
+                    "polls": false,
+                    "files": false,
+                    "sticker": false,
+                    "gif": false,
+                    "allowed_hashtags": [
+                        "#test"
+                    ],
+                    "forward_to_topics": [
+                        "1001"
+                    ],
+                    "content_tracking": true,
+                    "is_general": false,
+                    "forward_mentions": true,
+                    "message_count": 10
+                }
+            },
+            "admins": [
+                1000000001,
+                1000000002,
+                1000000003,
+                1000000004
+            ]
+        },
+        "-1000000000002": {
+            "name": "Group_2",
+            "topics": {},
+            "admins": [
+                1000000001,
+                1000000005,
+                1000000003,
+                1000000006,
+                1000000002
+            ]
+        }
+    }
+}
